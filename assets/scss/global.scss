@@ -1,0 +1,65 @@
+img {
+  flex-shrink: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: $background;
+  font-family: $montserrat;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+input {
+  &:focus {
+    outline: none;
+  }
+}
+
