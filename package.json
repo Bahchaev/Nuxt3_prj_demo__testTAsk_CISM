@@ -3,6 +3,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -28,5 +29,11 @@
   },
   "overrides": {
     "vue": "latest"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
   }
 }
